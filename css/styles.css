@@ -4142,6 +4142,41 @@ img.u-pull-left {
     fill : white;
 }
 
+.s-download__h4 {
+    z-index          : 1;
+    flex             : none;
+    width            : 75%;
+    max-width        : 880px;
+    background-color : rgba(10, 11, 11, 0.75);
+    font-weight      : 300;
+    font-size        : calc(var(--text-size) * 1.1111);
+    line-height      : var(--vspace-1_25);
+    color            : var(--color-text-light);
+    margin-top       : calc(var(--vspace-3) * -1);
+    margin-bottom    : var(--vspace-3_5);
+    padding          : var(--vspace-2_5) var(--vspace-3) var(--vspace-2);
+    position         : relative;
+}
+
+.s-download__h4 {
+    content          : "";
+    display          : block;
+    width            : 1px;
+    height           : var(--vspace-2);
+    background-color : var(--color-1);
+    transform        : translateX(-50%);
+    position         : absolute;
+    top              : calc(var(--vspace-1) * -1);
+    left             : 50%;
+}
+
+.s-download__h4 .s-download__about-title {
+    text-align    : center;
+    font-size     : var(--text-lg);
+    line-height   : var(--vspace-1);
+    margin-top    : 0;
+    margin-bottom : var(--vspace-2);
+}
 
 /* ===================================================================
  * # FOOTER
