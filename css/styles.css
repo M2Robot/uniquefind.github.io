@@ -4105,6 +4105,43 @@ img.u-pull-left {
     fill : white;
 }
 
+/* ===================================================================
+ * # DOWNLOAD
+ *
+ *
+ * ------------------------------------------------------------------- */
+.s-download {
+    background-color : var(--color-gray-14);
+    padding-top      : var(--vspace-5);
+    padding-bottom   : var(--vspace-3);
+}
+
+.s-download__content {
+    max-width : 600px;
+}
+
+.s-download__content .btn-wrap {
+    max-width : 480px;
+    margin    : 0 auto;
+}
+
+.s-download__content .btn {
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    margin-top      : var(--vspace-1);
+}
+
+.s-download__content .btn svg {
+    margin-right : 1.6rem;
+    height       : var(--vspace-0_75);
+    width        : var(--vspace-0_75);
+}
+
+.s-download__content .btn svg path {
+    fill : white;
+}
+
 
 /* ===================================================================
  * # FOOTER
