@@ -3370,7 +3370,7 @@ img.u-pull-left {
         margin: 0;
         outline: 0;
         border: none;
-        top: 5px;
+        top: 0px;
         left: 10%;
         position: fixed;
     }
